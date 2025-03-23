@@ -1,0 +1,70 @@
+.header {
+  background-color: skyblue;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+.header-logo {
+  position: absolute; /* Absolute positioning for the logo */
+  top: 10px; /* Distance from the top of the header */
+  left: 10px; /* Distance from the left of the header */
+  height: 170px;
+  width: 300px; /* Adjust the size of the logo as needed */
+}
+
+.header-top-right-image {
+  position: absolute; /* Absolute positioning for the top-right image */
+  top: 10px; /* Distance from the top of the header */
+  right: 10px; /* Distance from the right of the header */
+  height: 170px;
+  width: 300px; /* Adjust the size of the image as needed */
+}
+
+.header-content {
+  max-width: 800px; /* Adjusted width to fit between the two images */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px; /* Add some padding at the top */
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
